@@ -84,17 +84,14 @@ def print_players_in_game(current_game, players_from_database):
 
 if __name__ == "__main__":
     create_database()
-    
     while True:
         summoner_name = input("Enter summoner name to add to the database (press Enter to skip): ")
         if not summoner_name:
             break
         add_player_to_database(summoner_name)
-
     players_from_database = get_players_from_database()
 
     summoner_name = input("Enter the summoner name of the player you want to check: ")
-    
     summoner_id = get_summoner_id(summoner_name)
     if summoner_id:
         current_game = get_current_game(summoner_id)
