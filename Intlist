@@ -1,7 +1,7 @@
 import requests
 import sqlite3
 
-API_KEY = 'RGAPI-25c26be9-2cb8-4c1c-8813-46c798c36f5c'
+API_KEY = 'RGAPI-2a1d18ac-d3d5-4f23-bbef-f3275a268f2f'
 REGION = 'eun1'  # Regioon, kus asub Rioti mänguserver ('na1', 'euw1', 'eun1')
 DATABASE_NAME = 'players.db'  # Andmebaasi nimi, kus hoitakse mängijate andmeid
 
